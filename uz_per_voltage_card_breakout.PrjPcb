@@ -100,6 +100,35 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GZATAJRJ
 
+[Document4]
+DocumentPath=uz_OutputJob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for uz_per_voltage_card_breakout\Design Rule Check - uz_per_voltage_card_breakout.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for uz_per_voltage_card_breakout\Rev01\DOC\uz_per_voltage_card_breakout_3D_View_Bot_01.png
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for uz_per_voltage_card_breakout\Rev01\DOC\uz_per_voltage_card_breakout_3D_View_Top_01.png
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ZC_vv
 Value=00
@@ -1081,10 +1110,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=user.DbLib/Connector_generic
+ComponentDesignItemID0=UZgen_Conn_PinHead_2x02_SMD_100mil_90deg
+ComponentSymbolReference0=PinHeader_2x02
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1098,6 +1133,49 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Created from
+ParameterUpdate2=1
+ParameterName3=Created On
+ParameterUpdate3=1
+ParameterName4=Description
+ParameterUpdate4=1
+ParameterName5=Device Package
+ParameterUpdate5=1
+ParameterName6=Last Updated
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ParameterName8=Manufacturer
+ParameterUpdate8=1
+ParameterName9=Manufacturer Part Number
+ParameterUpdate9=1
+ParameterName10=Mounting Type
+ParameterUpdate10=1
+ParameterName11=PartID
+ParameterUpdate11=1
+ParameterName12=Pin Count
+ParameterUpdate12=1
+ParameterName13=Pin Current
+ParameterUpdate13=1
+ParameterName14=Pin Layout
+ParameterUpdate14=1
+ParameterName15=Pin Orientation
+ParameterUpdate15=1
+ParameterName16=Pin Pitch
+ParameterUpdate16=1
+ParameterName17=Pin Voltage
+ParameterUpdate17=1
+ParameterName18=Value
+ParameterUpdate18=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=TSM-102-01-L-DV
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
